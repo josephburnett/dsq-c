@@ -4,12 +4,12 @@
 int main(int argc, char* argv[])
 {
 
-    //console();
+    console();
 
     //testsuite();
 
-    if (argc == 2) testfile(argv[1]);
-    else printf("No input file\n");
+    //if (argc == 2) testfile(argv[1]);
+    //else printf("No input file\n");
 
     return 0;
 }
