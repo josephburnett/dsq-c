@@ -1,0 +1,11 @@
+__ __ __ __ __ __ a1
+__ b4 __ __ b3 __ __
+__ b5 __ a5 __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ b1 __ __ __ b8 __
+__ __ a8 __ a4 b7 __
+__ __ __ __ __ __ __
+
+This is one move away from being the working example from the thesis.  Player A should win easily in five moves.

@@ -1,0 +1,11 @@
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ b8
+__ __ __ b6 __ __ __
+b1 __ __ __ __ __ a1
+__ __ __ a6 __ __ __
+a8 __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+
+This position is symmetric and should be searched deeply.  Player A should be exactly one step ahead of B no matter how this plays out, so the game should belong to A.  The mice cannot advance because of the tigers so a lateral move should be the first move.  Then an exchange of pieces or a race to the den.

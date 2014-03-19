@@ -1,0 +1,188 @@
+ip-1:
+
+__ __ __ __ __ __ __
+__ __ b7 __ __ b8 __
+__ __ __ __ b6 __ __
+__ __ __ a5 __ __ a1
+__ __ __ a6 __ __ __
+__ b1 __ __ __ __ __
+a8 __ __ __ __ a7 __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+
+There is great pressure on the upper right quadrant of the board.  A's elephant can get past the mouse if it uses it's tiger properly and should be able to win.
+
+
+ip-2:
+
+__ __ __ __ __ __ b6
+b7 __ b4 __ b3 __ b2
+__ __ __ __ __ b8 __
+__ __ __ b5 __ __ a1
+__ __ __ __ __ __ __
+b1 __ __ a5 __ __ __
+__ a2 __ __ __ __ __
+a8 __ a3 __ a4 __ a7
+a6 __ __ __ __ __ __
+
+The position is almost perfectly symmetric, however A has moved his elephant away from the water.  The elephants are required to stop the advancing lions from leaping over the water.  This should be a disadvantageous position for player A.
+
+
+ip-3:
+
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ b8
+__ __ __ b6 __ __ __
+b1 __ __ __ __ __ a1
+__ __ __ a6 __ __ __
+a8 __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+
+This position is symmetric and should be searched deeply.  Player A should be exactly one step ahead of B no matter how this plays out, so the game should belong to A.  The mice cannot advance because of the tigers so a lateral move should be the first move.  Then an exchange of pieces or a race to the den.
+
+
+ip-4:
+
+__ __ __ __ __ __ __
+__ __ b4 __ b3 b2 b6
+__ b7 __ __ __ b8 __
+__ __ __ __ __ __ a1
+__ __ __ __ __ __ __
+__ __ __ b5 __ __ __
+b1 __ __ __ a5 __ __
+__ a8 a3 __ a4 a7 __
+__ a6 a2 __ __ __ __
+
+All players have their pieces, but B has developed the board much more than A, who has been wasting moves.
+
+
+ip-5:
+
+__ __ __ __ __ __ a1
+__ b4 __ __ b3 __ __
+__ b5 __ a5 __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ __
+__ b1 __ __ __ b8 __
+__ __ a8 __ a4 b7 __
+__ __ __ __ __ __ __
+
+This is one move away from being the working example from the thesis.  Player A should win easily in five moves.
+
+
+ip-6:
+
+__ __ __ __ __ b6 __
+__ b7 b1 __ b3 __ __
+__ a8 b5 __ __ __ __
+__ __ __ a5 __ __ __
+__ __ __ __ __ __ b4
+__ __ __ __ __ __ __
+__ a3 __ __ __ b2 b8
+__ a4 __ __ a2 __ __
+a6 __ __ __ a7 a1 __
+
+This position has two complicated problems on the B-side and the right A-side.  The problem on the B-side meeds more pieces to resolve and there is a small cluster on the left A-side.  Things have gone badly for B who tried to move down the right aisle while A was moving up.
+
+
+ip-7:
+
+__ __ __ __ __ __ b6
+__ b4 __ __ __ __ b2
+__ b7 b5 __ b3 __ b8
+b1 __ __ a5 __ __ __
+__ __ __ __ __ __ __
+__ __ __ __ __ __ a1
+__ a8 a3 __ __ __ __
+__ a2 __ __ __ a4 __
+a6 __ __ __ __ __ a7
+
+B has allowed A's hyena to advance too far and now B's lion is stuck.  By's hyena should have moved over sooner to give the lion room to operate.
+
+
+ip-8:
+
+__ __ __ __ __ __ b6
+__ __ b4 __ __ __ b2
+b7 __ __ b5 b3 b8 __
+a6 b1 __ __ __ __ a1
+__ __ __ a5 __ __ __
+__ __ __ __ __ __ __
+__ a8 __ __ __ __ a7
+__ a2 a3 __ __ a4 __
+__ __ __ __ __ __ __
+
+A has let B's lion get too close to his tiger and he is going to lose his hyena in the retreat.  (A should have seen this coming when B moved b5-b5.)  See also ip-9 which allows A to avoid this situation.
+
+
+ip-9:
+
+__ __ __ __ __ __ b6
+__ __ b4 __ __ __ b2
+__ b7 __ b5 b3 b8 __
+a6 b1 __ __ __ __ __
+__ __ __ a5 __ __ a1
+__ __ __ __ __ __ __
+__ a8 __ __ __ __ a7
+__ a2 a3 __ __ a4 __
+__ __ __ __ __ __ __
+
+This is the position that immediately preceeds ip-8.  If A moves g5-g6, B will move his lion over and chase A's tiger.
+
+
+ip-10:
+
+__ __ __ __ __ __ b6
+__ b4 b5 __ b3 b2 __
+b7 __ __ __ b8 __ a1
+__ b1 __ __ __ __ __
+__ __ __ a7 __ __ __
+a8 __ __ __ __ __ __
+__ __ a3 __ a5 __ __
+__ a2 __ __ __ a4 __
+a6 __ __ __ __ __ __
+
+A has been too aggressive and allowed the possibility of B's elephant by-passing A's mouse and driving down the center aisle.  A can save himself only by sidelining the lion and bringing his elephant back to c3 as fast as possible.
+
+
+ip-11:
+
+   +--+--+--+--+--+--+--+
+ 9 |b7|  | t| d| t|  |b6|
+   +--+--+--+--+--+--+--+
+ 8 |  |b4|  | t|  |b2|  |
+   +--+--+--+--+--+--+--+
+ 7 |b1|  |  |b5|b3|  |  |
+   +--+--+--+--+--+--+--+
+ 6 |  | w| w|  | w| w|  |
+   +--+--+--+--+--+--+--+
+ 5 |  | w| w|  | w| w|b8|
+   +--+--+--+--+--+--+--+
+ 4 |  | w| w|  | w| w|  |
+   +--+--+--+--+--+--+--+
+ 3 |a8|  |a3|  |a5|  |a1|
+   +--+--+--+--+--+--+--+
+ 2 |  |a2|  | t|  |  |a7|
+   +--+--+--+--+--+--+--+
+ 1 |a6|  | t| d| t|a4|  |
+   +--+--+--+--+--+--+--+
+     A  B  C  D  E  F  G
+
+
+ip-12:
+
+b7 __ __ __ __ __ __
+__ b4 __ __ __ b2 __
+__ __ __ b5 b3 b8 __
+__ __ __ __ __ __ b6
+__ __ __ a5 __ __ __
+b1 __ __ __ __ __ __
+__ a2 a3 __ __ __ __
+a8 __ __ __ a4 a7 a1
+__ a6 __ __ __ __ __
+
+
+
