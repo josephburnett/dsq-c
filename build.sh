@@ -2,7 +2,7 @@
 
 set -e
 
-BUILD_DIR=$PWD
+rm -r build/
 
 (cd proto && ./build-proto.sh)
 (cd engine && ./build-engine.sh)
