@@ -1,6 +1,8 @@
+#include <zmq.h>
 #include "common.h"
 #include "interface.h"
 #include "console.h"
+#include "search.pb-c.h"
 
 void console()
 {
@@ -20,6 +22,11 @@ void console()
     double timeB;
 
     char input[256];
+
+    void *context = zmq_ctx_new ();
+    void *requestor = zmq_socket (context, ZMQ_REQ);
+    int rc = zmq_connect (requestor, "tcp://localhost:3773");
+    assert (rc == 0);
 
     struct partition* part = malloc(sizeof(struct partition));
     int i;
@@ -218,7 +225,18 @@ struct position* newGame()
     return p;
 }
 
+struct move* remoteSearch(struct position *p, enum side s) {
 
+    SearchPosition position = SEARCH_POSITION__INIT;
+    void *buf;
+    unsigned len;
+
+    
+
+    struct move* mv;
+
+    return mv;
+}
 
 
 
