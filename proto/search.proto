@@ -21,45 +21,32 @@ enum Row {
   Nine = 9;
 }
 
-message SearchPosition {
+enum Piece {
+  MOUSE = 1;
+  CAT = 2;
+  DOG = 3;
+  WOLF = 4;
+  HYENA = 5;
+  TIGER = 6;
+  LION = 7;
+  ELEPHANT = 8;
+}
 
-  enum Piece {
-    MOUSE = 1;
-    CAT = 2;
-    DOG = 3;
-    WOLF = 4;
-    HYENA = 5;
-    TIGER = 6;
-    LION = 7;
-    ELEPHANT = 8;
-  }
+enum Player {
+  PlayerA = 1;
+  PlayerB = 2;
+}
 
-  message Position {
-    
-    message Square {
-      required Column col = 1;
-      required Row row = 2;
-      optional Piece piece = 3;
-    }
+message Square {
+  required Column col = 1;
+  required Row row = 2;
+  optional Piece piece = 3;
+}
 
-    repeated Square squares = 1;
-  }
-
-  enum Player {
-    PlayerA = 1;
-    PlayerB = 2;
-  }
-
-  message Weight {
-    required Row row = 1;
-    required Column col = 2;
-    required Piece piece = 3;
-    required int32 weight = 4;
-  }
-
-  required Position position = 1;
-  required Player turn = 2;
-  repeated Weight weights = 3;
+message Position {
+  
+  repeated Square squares = 1;
+  optional Player turn = 2;
 }
 
 message Move {
@@ -69,3 +56,15 @@ message Move {
   required Row toRow = 4;
 }
 
+message SearchPosition {
+
+  message Weight {
+    required Row row = 1;
+    required Column col = 2;
+    required Piece piece = 3;
+    required int32 weight = 4;
+  }
+
+  required Position position = 1;
+  repeated Weight weights = 3;
+}
